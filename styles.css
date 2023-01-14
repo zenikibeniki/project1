@@ -60,6 +60,10 @@ body {
     padding: 20px 80px;
     background-color: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -100,14 +104,50 @@ body {
 
 /* Home */
 
+#hero {
+    background-image: url('img/hero4.png');
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #0cb39c;
+}
+
+#hero button{
+    background-image: url('img/button.png');
+    background-color: transparent;
+    color: #0cb39c;
+    border: 0;
+    padding: 15px 80px 15px 70px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
 /* Shop */
+
 
 
 /* Single Product */
 
 
+
 /* Blog */
+
 
 
 /* About */
