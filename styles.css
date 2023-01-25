@@ -653,7 +653,7 @@ footer .copyright {
   transition: 0.3s;
 }
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
   color: #088178;
 }
 
@@ -669,8 +669,51 @@ footer .copyright {
 
 /* About */
 
-/* Start Media Query */
+#page-header.about-header {
+  background-image: url("img/about/banner.png");
+}
 
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-app {
+  text-align: center;
+}
+/* /////////////////////////////////////////////////////////// */
+#about-head div abbr {
+  display: block;
+  margin-left: -40px;
+}
+#about-head div marquee {
+  display: block;
+  margin-left: -40px;
+}
+/* /////////////////////////////////////////////////////////// */
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+/* Start Media Query */
+/* ipad */
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40 px 40px;
@@ -751,8 +794,22 @@ footer .copyright {
   #newsletter .form {
     width: 70%;
   }
+  #about-head img {
+    margin: 0 0 200px 0;
+    width: 50%;
+    height: auto;
+  }
+  #about-head .test abbr {
+    margin-left: -380px;
+    display: block;
+  }
+  #about-head .test marquee {
+    margin-left: -380px;
+    display: block;
+  }
 }
 
+/* iphone */
 @media (max-width: 477px) {
   #header {
     padding: 10px 30px;
@@ -816,11 +873,11 @@ footer .copyright {
   }
 
   /* Blog Page */
-#blog{
-  padding: 100px 20px 0 20px;
-}
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
 
-  #blog .blog-box{
+  #blog .blog-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -831,6 +888,34 @@ footer .copyright {
     margin-bottom: 25px;
   }
   #blog .blog-details {
+    width: 100%;
+  }
+
+  /* about page */
+
+  #about-head {
+    flex-direction: column;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head .test2 {
+    padding-left: 0px;
+  }
+  #about-head .test2 h2{
+    text-align: center;
+  }
+  #about-head .test abbr {
+    display: block;
+    margin-left: -50px;
+    padding: 0 10px;
+  }
+  #about-head .test marquee {
+    display: block;
+    margin-left: -40px;
+  }
+  #about-app .video {
     width: 100%;
   }
 }
