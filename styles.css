@@ -785,19 +785,7 @@ footer .copyright {
   #newsletter .form {
     width: 70%;
   }
-  #about-head img {
-    margin: 0 0 200px 0;
-    width: 50%;
-    height: auto;
-  }
-  #about-head .test abbr {
-    margin-left: -380px;
-    display: block;
-  }
-  #about-head .test marquee {
-    margin-left: -380px;
-    display: block;
-  }
+  
 }
 
 /* iphone */
@@ -883,7 +871,6 @@ footer .copyright {
   }
 
   /* about page */
-
   #about-head {
     flex-direction: column;
   }
@@ -891,24 +878,12 @@ footer .copyright {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* ////////////////////////////////////// */
-  #about-head .test2 {
+  #about-head div {
     padding-left: 0px;
   }
-  #about-head .test2 h2 {
+  #about-head h2 {
     text-align: center;
   }
-  #about-head .test abbr {
-    display: block;
-    margin-left: -50px;
-    padding: 0 10px;
-  }
-  #about-head .test marquee {
-    display: block;
-    margin-left: -40px;
-  }
-
-  /* ////////////////////////////////////////// */
   #about-app .video {
     width: 100%;
   }
