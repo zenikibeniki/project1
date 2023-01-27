@@ -690,24 +690,15 @@ footer .copyright {
 #about-app {
   text-align: center;
 }
-/* /////////////////////////////////////////////////////////// */
-#about-head div abbr {
-  display: block;
-  margin-left: -40px;
-}
-#about-head div marquee {
-  display: block;
-  margin-left: -40px;
-}
-/* /////////////////////////////////////////////////////////// */
+
 #about-app .video {
   width: 70%;
   height: 100%;
-  margin: 30px auto 0 auto;
+  margin-top: 30px auto 0 auto;
 }
 
 #about-app .video video {
-  width: 100%;
+  width: 70%;
   height: 100%;
   border-radius: 30px;
 }
@@ -904,7 +895,7 @@ footer .copyright {
   #about-head .test2 {
     padding-left: 0px;
   }
-  #about-head .test2 h2{
+  #about-head .test2 h2 {
     text-align: center;
   }
   #about-head .test abbr {
